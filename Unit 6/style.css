@@ -1,0 +1,35 @@
+div#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;  
+}
+
+main {
+  background-color: black;
+  color: #f6f9f7;
+}
+
+ul {
+  list-style-image: url("/Unit 6/images/banana.png");
+  list-style-type: circle;
+  padding: 50px;
+  outline: outside;
+}
+
+.border-image {
+  border: 10px solid transparent;
+  border-image: url("/Unit 6/images/border.jpg") 33 round;
+  padding: 15px;
+}
+
+.main-image {
+  height: 300px;
+  border: 10px solid transparent;
+  border-image: url("/Unit 6/images/border.jpg") 33 round;
+  padding: 1px;
+}
+body {
+  background-image: url("/Unit 6/images/skeleton.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
